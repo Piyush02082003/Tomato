@@ -5,7 +5,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const Add = () => {
-  const url = "https://tomato-admin-8cmd.onrender.com";
+  const url = "https://tomato-frontend-tgu7.onrender.com/";
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",
