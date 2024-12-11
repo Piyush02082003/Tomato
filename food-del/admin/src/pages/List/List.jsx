@@ -4,7 +4,7 @@ import axios from "axios";
 import {toast} from "react-toastify";
 
 const List = () => {
-  const url = "https://tomato-frontend-tgu7.onrender.com/";
+  const url = "https://tomato-admin-8cmd.onrender.com";
   const [list, setList] = useState([]);
 
   const fetchList = async ()=> {
