@@ -2,9 +2,10 @@ import React, { useState,useEffect } from "react";
 import "./List.css";
 import axios from "axios";
 import {toast} from "react-toastify";
+import { url } from "../../assets/assets";
 
 const List = () => {
-  const url = "https://tomato-frontend-tgu7.onrender.com/";
+  // const url = "https://tomato-backend-u59y.onrender.com";
   const [list, setList] = useState([]);
 
   const fetchList = async ()=> {

@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./Add.css";
 import { assets } from "../../assets/assets";
+import { url } from "../../assets/assets";
 import axios from "axios";
 import { toast } from "react-toastify";
 
 const Add = () => {
-  const url = "https://tomato-frontend-tgu7.onrender.com/";
+  // const url = "https://tomato-backend-u59y.onrender.com";
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",

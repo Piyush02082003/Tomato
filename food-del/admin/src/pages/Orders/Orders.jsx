@@ -4,9 +4,11 @@ import { useState } from 'react'
 import {toast} from "react-toastify"
 import axios from "axios"
 import {assets} from "../../assets/assets"
+import { url } from "../../assets/assets";
 
-const Orders = ({url}) => {
 
+const Orders = () => {
+  // const url = "https://tomato-backend-u59y.onrender.com";
   const [orders,setOrders] = useState([]);
 
   const fetchAllOrders = async() =>{
